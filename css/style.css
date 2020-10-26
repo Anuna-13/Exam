@@ -1,0 +1,136 @@
+.banner {
+	width: 100%;
+}
+.back {
+	position: absolute;
+	width: 100%;
+}
+.nav-box {
+	position: relative;
+}
+.box{
+	position: relative;
+}
+.nav-ul {
+	display: flex;
+	justify-content: flex-start;
+	padding-right: 49px;
+	padding-top: 30px;
+}
+.small-box2 {
+	display: flex;
+	margin-top: 19px;
+}
+.home {
+	color: white;
+	padding-right: 14.5px;
+	font-family: 'Poppins-Medium';
+}
+.about {
+	color: white;
+	padding-right: 14.5px;
+	font-family: 'Poppins-Medium';
+}
+.big-about {
+	color: white;
+	font-family: 'Poppins-ExtraBold';
+	font-size: 42px;
+}
+.nav-a {
+	color: white;
+	font-family: 'Poppins-SemiBold';
+	font-size: 12px;
+}
+.active{
+	color: #5863F8;
+	font-family: 'Poppins-SemiBold';
+	font-size: 12px;
+}
+.hotelname {
+	padding-right: 900px;
+	color: white;
+	padding-left: 139px;
+	font-family: 'Poppins-Bold ';
+	font-size: 14px;
+}
+.nav-li {
+	padding-right: 49px;
+}
+.box {
+	padding-left: 139px;
+	padding-top: 96px;
+}
+p.home::after{
+	content:'\007C';
+	color: white;
+	padding-left: 14.5px;
+	
+
+}
+/*.section1 {
+	margin-top: 324px;
+}*/
+.btn {
+	border: none;
+	background-color: #2E2E2E;
+	width: 184px;
+	height: 50px;
+	color: white;
+	font-size: 14px;
+	/*margin-top: 40.80px;
+	margin-bottom: 228.80px;*/
+	font-family: 'Poppins-Regular';
+}
+
+button.btn::after {
+	content:'\2192';
+	color: white;
+	padding-left: 18px;
+
+}
+.p1 {
+	color: black;
+	font-family: 'Poppins-Medium';
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.p2 {
+	color: black;
+	font-family: 'Poppins-Regular';
+	font-size: 14px;
+}
+
+.p-box {
+	font-family: 'Poppins-Bold ';
+	color:#5863F8;
+	font-size: 14px;
+}
+.section-title {
+	font-family: 'Poppins-ExtraBold';
+	color: #000000;
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+section {
+	margin-top: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.section-box {
+	width:444px;
+	height: 388px;
+	margin-right: 108px;
+}
+.section-image {
+	width: 540px;
+	height: 461px;
+}
+.section-image2 {
+	width: 536px;
+	height: 260px;
+}
+.kibe {
+	padding-right: 13px;
+}
