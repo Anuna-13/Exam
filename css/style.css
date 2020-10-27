@@ -118,8 +118,7 @@ button.btn::after {
 	font-size: 42px;
 	margin-bottom: 10px;
 }
-section {
-	/*margin-top: 300px;*/
+.pirveli {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -159,9 +158,69 @@ section {
 	font-family: 'Poppins-Bold ';
 	color: #5863F8;
 	font-size: 14px;
+	width: 80px;
+	height: 20px;
 }
 .section2-title {
 	font-family: 'Poppins-ExtraBold';
 	color: #FFFFFF;
 	font-size: 42px;
+	width: 376px;
+	height: 115px;
+
+}
+.section2-box {
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	padding-top: 113px;
+	padding-left:139px; 
+}
+.box-4 {
+	display: flex;
+	justify-content: space-around;
+	
+}
+.box-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 260px;
+	height: 260px;
+	background-color: white;
+	padding-right: 16px;
+
+}
+.small-logo {
+	margin: 0 auto;
+	width: 32.73px;
+	height: 32.73px;
+}
+.hotel-img {
+	border-radius: 50px;
+	background-color: #5863F8;
+	width: 59px;
+	height: 58px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 101px;
+	margin-bottom: 15px;
+}
+.box-container-p {
+	margin: 0 auto;
+	padding-bottom: 20px;
+	font-family: 'Poppins-SemiBold';
+	font-size: 18px;
+	width: 188px;
+	height: 52px;
+}
+.box-container-p2 {
+	padding-left: 20px;
+	font-family: 'Poppins-Medium';
+	font-size: 14px;
+	color: #B1B1B1;
+	width: 221px;
+	height: 62px;
+	align-items: center;
 }
