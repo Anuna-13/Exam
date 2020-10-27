@@ -224,3 +224,57 @@ button.btn::after {
 	height: 62px;
 	align-items: center;
 }
+/*section3*/
+.mesame {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.marius-box {
+	display: flex;
+}
+.t-box{
+	font-family: 'Poppins-Bold ';
+	color:#5863F8;
+	font-size: 14px;
+}
+.section3-title {
+	font-family: 'Poppins-ExtraBold';
+	color: #000000;
+	font-size: 42px;
+	width: 550px;
+	height: 115px;
+	margin-right: 132px;
+}
+.section3-box {
+	width: 583px;
+	height: 352px;
+}
+.marius-name {
+	font-family: 'Poppins-SemiBold';
+	color: #000000;
+	font-size: 18px;
+	padding-left: 19px;
+	padding-top: 34px;
+}
+.marius-image {
+	padding-top: 30px;
+
+}
+.marius-comment {
+	font-family: 'Poppins-Medium';
+	font-size: 14px;
+}
+.section3-comment {
+	width: 352px;
+	height: 62px;
+	margin-top: 20px;
+	line-height:1.5;
+}
+.section3-image {
+	background-image: url(../img/bed.png);
+	background-repeat: no-repeat;
+	/*background-size: 100%;*/
+	width:583px;
+	height: 487px;
+}
