@@ -295,7 +295,7 @@ button.btn::after {
 	font-family: 'Poppins-ExtraBold';
 	font-size: 42px;
 	color: #000000;
-	width: 565px;
+	width: 585px;
 	height: 115px;
 	/*margin-bottom: 50px;*/
 }
@@ -310,6 +310,8 @@ button.btn::after {
 	justify-content: space-around;
 	align-items: center;
 	background-color: #121212;
+	padding-top: 90px;
+	padding-bottom: 144px;
 }
 .footer-box1 {
 	width: 260px;
@@ -329,6 +331,7 @@ button.btn::after {
 	font-family: 'Poppins-Medium';
 	font-size: 14px;
 	color: #B1B1B1;
+	line-height:1.5;
 }
 .use-links {
 	width: 120px;
@@ -359,4 +362,64 @@ button.btn::after {
 	font-size: 14px;
 	color: #FFFFFF;
 	padding-bottom: 20px;
+}
+.mail-icon {
+	color: #5863F8;
+	padding-right: 14px;
+}
+.phone-icon {
+	color: #5863F8;
+	padding-right: 17px;
+}
+.map-icon {
+	color: #5863F8;
+	padding-right: 19.9px;
+}
+.map,
+.phone,
+.email
+ {
+	color: #FFFFFF;
+}
+.fb {
+	color: #FFFFFF;
+	background-color:  #121212;
+	/*border-radius: 100px;*/
+	/*border-color: #ffffff;*/
+	font-size: 30px;
+	/*width: 50px;
+	height: 50px;*/
+	margin-right:20px;
+}
+.twit {
+	color: #FFFFFF;
+	background-color: #121212;
+	font-size: 30px;
+	/*border-radius: 50px;*/
+	/*width: 50px;
+	height: 50px;*/
+	margin-right:20px;
+}
+.g-plus {
+	color: #FFFFFF;
+	background-color: #121212;
+	font-size: 30px;
+	/*border-radius: 60px;*/
+	/*width: 50px;
+	height: 50px;*/
+}
+.social-icons {
+	margin-top: 20px;
+}
+.fb:hover {
+	color: #3B5998;
+	transform: scale(1.8,1.8);
+}
+.twit:hover {
+	color: #55ACEE;
+	transform: scale(1.8,1.8);
+}
+.g-plus:hover {
+	color: #DC4E41;
+	transform: scale(1.8,1.8);
 }
