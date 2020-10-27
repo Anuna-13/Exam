@@ -143,9 +143,9 @@ section {
 	height: 260px;
 }
 .kibe {
-	padding-right: 13px;
+	padding-right: 12px;
 }
-
+/*section2*/
 .section2-back{
 	background-image: url(../img/back2.jpg);
 	background-repeat: no-repeat;
@@ -154,4 +154,14 @@ section {
 	height: 612px;
 	margin-top: 90px;
 	position: relative;
+}
+.section2-about {
+	font-family: 'Poppins-Bold ';
+	color: #5863F8;
+	font-size: 14px;
+}
+.section2-title {
+	font-family: 'Poppins-ExtraBold';
+	color: #FFFFFF;
+	font-size: 42px;
 }
