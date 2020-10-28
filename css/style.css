@@ -13,14 +13,22 @@
 	opacity: 1.0;
 }
 .container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	padding-top: 30px;
 }
 .nav-ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-end;
-	padding-right: 49px;*/
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	padding-right: 49px;
 }
 .hotelname {
 	color: white;
@@ -29,6 +37,8 @@
 	font-size: 14px;
 }
 .small-box2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 19px;
 }
@@ -54,6 +64,7 @@
 }
 .nav-a:hover {
 	color: #5863F8;
+	/*transform: scale(1.1, 1.1);*/
 }
 .active{
 	color: #5863F8;
@@ -74,7 +85,6 @@ p.home::after{
 	padding-left: 14.5px;
 }
 /*section1*/ 
-
 .btn {
 	border: none;
 	background-color: #5863F8;
@@ -83,8 +93,13 @@ p.home::after{
 	color: white;
 	font-size: 14px;
 	margin-top: 20px;
-	
 	font-family: 'Poppins-Regular';
+}
+.btn:hover {
+	opacity: 0.9;
+	-webkit-transform: scale(1.1, 1.1);
+	    -ms-transform: scale(1.1, 1.1);
+	        transform: scale(1.1, 1.1);
 }
 
 button.btn::after {
@@ -119,9 +134,15 @@ button.btn::after {
 	margin-bottom: 10px;
 }
 .pirveli {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	width: 100%;
 }
 .section-box {
@@ -170,21 +191,39 @@ button.btn::after {
 
 }
 .section2-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content:flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:start;
+	    -ms-flex-pack:start;
+	        justify-content:flex-start;
 	padding-top: 113px;
 	padding-left:139px; 
 }
 .box-4 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	
 }
 .box-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	width: 260px;
 	height: 260px;
 	background-color: white;
@@ -201,9 +240,16 @@ button.btn::after {
 	background-color: #5863F8;
 	width: 59px;
 	height: 58px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-left: 101px;
 	margin-bottom: 15px;
 }
@@ -222,15 +268,25 @@ button.btn::after {
 	color: #B1B1B1;
 	width: 221px;
 	height: 62px;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 /*section3*/
 .mesame {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .marius-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .t-box{
@@ -280,8 +336,11 @@ button.btn::after {
 }
 /*section4*/
 .section4-image {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 .section41-box {
 	margin-left: 139px;
@@ -301,14 +360,24 @@ button.btn::after {
 }
 .section4-box {
 	margin-top: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 /*footer*/
 .footer-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	background-color: #121212;
 	padding-top: 90px;
 	padding-bottom: 144px;
@@ -316,10 +385,19 @@ button.btn::after {
 .footer-box1 {
 	width: 260px;
 	height: 191px;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .footer-hotel-title {
 	font-family: 'Poppins-Bold ';
@@ -413,13 +491,19 @@ button.btn::after {
 }
 .fb:hover {
 	color: #3B5998;
-	transform: scale(1.8,1.8);
+	-webkit-transform: scale(1.8,1.8);
+	    -ms-transform: scale(1.8,1.8);
+	        transform: scale(1.8,1.8);
 }
 .twit:hover {
 	color: #55ACEE;
-	transform: scale(1.8,1.8);
+	-webkit-transform: scale(1.8,1.8);
+	    -ms-transform: scale(1.8,1.8);
+	        transform: scale(1.8,1.8);
 }
 .g-plus:hover {
 	color: #DC4E41;
-	transform: scale(1.8,1.8);
+	-webkit-transform: scale(1.8,1.8);
+	    -ms-transform: scale(1.8,1.8);
+	        transform: scale(1.8,1.8);
 }
