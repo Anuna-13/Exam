@@ -5,7 +5,7 @@
 	width: 100%;
 	height: 324px;
 	margin: 0 auto;
-	background-size: 100%;
+	background-size: cover;	
 	position: relative;
 	opacity: 0.9;
 }
@@ -75,6 +75,9 @@
 .nav-li {
 	padding-right: 49px;
 }
+.last {
+	padding-right: 0;
+}
 .box {
 	padding-left: 139px;
 	padding-top: 96px;
@@ -138,11 +141,11 @@ button.btn::after {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	width: 100%;
 }
 .section-box {
@@ -169,11 +172,12 @@ button.btn::after {
 .section2-back{
 	background-image: url(../img/back2.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	width:100%;
-	height: 612px;
-	margin-top: 90px;
-	position: relative;
+	height: auto;
+	/*position: relative;*/
+	padding-top: 92px;
+	padding-bottom: 90px;
 }
 .section2-about {
 	font-family: 'Poppins-Bold ';
@@ -233,7 +237,7 @@ button.btn::after {
 .small-logo {
 	margin: 0 auto;
 	width: 32.73px;
-	height: 32.73px;
+	/*height: 32.73px;*/
 }
 .hotel-img {
 	border-radius: 50px;
@@ -381,13 +385,14 @@ button.btn::after {
 	background-color: #121212;
 	padding-top: 90px;
 	padding-bottom: 144px;
+	flex-wrap: wrap;
 }
 .footer-box1 {
 	width: 260px;
 	height: 191px;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
-	        align-items: center;
+	        /*align-items: center;*/
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -398,6 +403,7 @@ button.btn::after {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
+
 }
 .footer-hotel-title {
 	font-family: 'Poppins-Bold ';
