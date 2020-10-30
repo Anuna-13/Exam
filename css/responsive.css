@@ -137,9 +137,9 @@
 		width: 100%;
 	}
 }
-@media(max-width: 380px){
+@media(max-width: 336px){
 	.section-box {
-		/*margin: 0 auto;*/
+		margin: 0 auto;
 		width: 100%;
 	}
 }
@@ -188,5 +188,11 @@
 @media(max-width: 400px){
 	.section2-box {
 		padding: 10px;
+	}
+}
+@media(max-width: 336px){
+	.section3-box {
+		margin: 0 auto;
+		width: 100%;
 	}
 }
