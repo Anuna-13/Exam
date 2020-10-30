@@ -1,123 +1,180 @@
-
-/*header*/
-@media (max-width: 1024px){
+@media (max-width:850px){
 	.hotelname {
-		padding-left: 50px;
+		font-size: 42px;
 	}
 }
-@media (max-width:1024px){
-	.nav-li {
-		padding-right: 20px;
+@media (max-width:850px){
+	.navigation {
+		display: none;
 	}
 }
-@media (max-width:1024px){
-	.big-about{
-		font-size: 30px;
-	}
-}
-@media (max-width:1024px){
-	.box{
-		padding-left: 50px;
-		padding-top: 50px;
-	}
-}
-@media (max-width:900px){
+
+@media (max-width:650px){
 	.hotelname {
-		padding-left: 30px;
+		font-size: 35px;
+
 	}
 }
-@media (max-width:900px){
-	.nav-li {
-		padding-right: 10px;
-	}
-}
-@media (max-width:900px){
+@media (max-width:650px){
 	.big-about{
-		font-size: 30px;
+		font-size: 35px;
 	}
 }
-@media (max-width:900px){
-	.box{
-		padding-left: 30px;
-		padding-top: 30px;
-	}
-}
-@media (max-width:800px){
+@media (max-width:500px){
 	.hotelname {
-		padding-left: 10px;
-	}
+		padding-left: 100px;
+		}
 }
-@media (max-width:800px){
-	.nav-li {
-		padding-right: 10px;
-	}
-}
-@media (max-width:800px){
-	.big-about{
-		font-size: 20px;
-	}
-}
-@media (max-width:800px){
+@media (max-width:500px){
 	.box{
-		padding-left: 10px;
-		padding-top: 10px;
+		padding-left: 100px;
+		padding-top: 70px;
 	}
 }
-/*996*/
-
-@media (max-width:996px){
-	.pirveli{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-
+@media (max-width:400px){
+	.hotelname {
+		padding-left: 80px;
+		}
+}
+@media (max-width:400px){
+	.box{
+		padding-left: 80px;
+		padding-top: 70px;
 	}
 }
-@media (max-width:996px){
-	.mesame{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-
+@media (max-width:340px){
+	.hotelname {
+		padding-left: 60px;
+		}
+}
+@media (max-width:340px){
+	.box{
+		padding-left: 60px;
+		padding-top: 70px;
 	}
 }
-@media (max-width:996px){
-	.section4-image{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-
+@media (max-width:320px){
+	.hotelname {
+		padding-left: 60px;
+		}
+}
+@media (max-width:320px){
+	.box{
+		padding-left: 60px;
+		padding-top: 70px;
 	}
 }
-@media(max-width: 996px){
-	.coast,
-	.view,
-	.stairs{
-		width: 600px;
-		height: 600px;
+@media(max-width: 800px){
+	.section41-box {
+		margin: 0 auto;
 	}
 }
-@media(max-width: 996px){
-	.box-container{
-		width: 48%;	
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.box-4 box-container {
+@media(max-width: 600px){
+	.section3-title {
 		width: 100%;
 	}
 }
-@media(max-width: 996px){
-	.section2{
-		margin-bottom: 200px;
+@media(max-width: 550px){
+	.section3-title {
+		font-size: 32px;
 	}
-
 }
-@media(max-width: 996px){
-	.section-back{
-		height: 1000px;
+@media(max-width: 600px){
+	.section4-title {
+		width: 100%;
 	}
-
 }
 
+@media(max-width: 600px){
+	.section-image {
+		display: none;
+	}
+}
+@media(max-width: 800px){
+	.section4-image {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media(max-width: 650px){
+	.section4-title {
+		font-size: 35px;
+	}
+}
+@media(max-width: 550px){
+	.section4-title {
+		font-size: 32px;
+	}
+}
+@media(max-width: 450px){
+	.section4-title {
+		font-size: 30px;
+	}
+}
+@media(max-width: 600px){
+	.section-box {
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+@media(max-width: 380px){
+	.section-box {
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+@media(max-width: 380px){
+	.section-box {
+		/*margin: 0 auto;*/
+		width: 100%;
+	}
+}
+@media(max-width: 600px){
+	.btn {
+		display: none;
+	}
+}
+@media(max-width: 380px){
+	.p1,
+	.p2 {
+		line-height:1;
+	}
+}
+
+
+@media(max-width: 450px){
+	.section-box {
+		
+		width: 100%;
+	}
+}
+@media(max-width: 550px){
+	.section-title {
+		font-size: 35px;
+	}
+}
+@media(max-width: 550px){
+	.section2-title {
+		font-size: 35px;
+		padding: 0;
+		margin: 0;
+	}
+}
+@media(max-width: 550px){
+	.section3-title {
+		font-size: 35px;
+	}
+}
+@media(max-width: 800px){
+	.use-links,
+	.privacy {
+		display: none;
+	}
+}
+@media(max-width: 600px){
+	.section2-box {
+		padding: 15px;
+	}
+}
