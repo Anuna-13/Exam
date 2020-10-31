@@ -87,6 +87,13 @@ p.home::after{
 	color: white;
 	padding-left: 14.5px;
 }
+.burger-icon {
+	color: white;
+	
+}
+.burger {
+	display: none;
+}
 /*section1*/ 
 .btn {
 	border: none;
